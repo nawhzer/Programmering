@@ -8,7 +8,7 @@ public class Oppgave5alfabet
 	ta.setText("Antall store og små bokstaver av hvert jævla slag!\n");
 	
     String input = JOptionPane.showInputDialog("Programmet teller og skriver "+
-          "ut dumbfuck i tekststrengen du skriver." );
+          "ut bokstaver i tekststrengen du skriver." );
 
     char[] bokstaver = { 'A', 'B', 'C', 'D', 'E', 'F', 'G'
 						,'H', 'I', 'J', 'K', 'L', 'M', 'N'
@@ -22,7 +22,7 @@ public class Oppgave5alfabet
 	
 	int[] antallBokstaver = new int[58];
 
-    String output = "Dumbfuck i innlest tekst:\n";			
+    String output = "Bokstaver i innlest tekst:\n";			
 															
     for ( int i = 0; i < input.length(); i++ )				
     {														

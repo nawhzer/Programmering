@@ -4,7 +4,7 @@ public class Arrayer
 {
 	public static void main(String[] args)
 	{
-		String[] alternativer = {"ja", "nei", "wtf?", "flere kanpper"};
+		String[] alternativer = {"ja", "nei", "wtf?", "flere knapper"};
 		int svar = JOptionPane.showOptionDialog(null, "LOL?", "OMG", 
 											JOptionPane.YES_NO_OPTION, 
 											JOptionPane.QUESTION_MESSAGE, null, 

@@ -90,11 +90,11 @@ public class Oppgave4tallduplikater
 					tallData[i] = tall;
 				else
 					JOptionPane.showMessageDialog(null, "Dette tallet hadde skrevet inn fra før. Prøv igjen", 
-														"Stupid motherfucker", JOptionPane.WARNING_MESSAGE);
+														"Idiot!", JOptionPane.WARNING_MESSAGE);
 			}
 			else
 				JOptionPane.showMessageDialog(null, "Dette tallet var desverre ikke 20 - 100. Prøv igjen", 
-													"Stupid motherfucker!", JOptionPane.WARNING_MESSAGE);
+													"Idiot!", JOptionPane.WARNING_MESSAGE);
 			
 		}
 	}
