@@ -5,7 +5,7 @@ public class KOppgave2
 {
 	public static void main(String[]args)
 
-	{	JTextArea textområde = new JTextArea();
+	{	JTextArea textomrÃ¥de = new JTextArea();
 		String [] antall = new String[10];
 
 		int x;
